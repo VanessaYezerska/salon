@@ -1,0 +1,39 @@
+.text-block {
+    background-color: #f2f2f23a;
+    padding: 10px;
+    margin-bottom: 20px;
+ }
+ /* Стилі для блоків тексту */
+ .text-block {
+    background-color: #f2f2f2b7;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  /* Стилі для макету */
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+
+  /* Лінійний градієнт */
+  body {
+    background: linear-gradient(to right, #ccecff, #ffccee);
+  }
+
+  /* Зовнішні шрифти */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+  .text-block:hover {
+    background-color: #e6e6e6;
+  }
+
+  input:focus {
+    border: 2px solid blue;
+    outline: none;
+  }
